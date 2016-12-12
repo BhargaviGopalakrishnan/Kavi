@@ -1,0 +1,27 @@
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\bin\QtApp-debug-unaligned.apk : \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\bin\QtApp.ap_ \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\bin\classes.dex \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\QtAndroid-bundled.jar \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\gdbserver \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libaddress-book.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libgdbserver.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libgnustl_shared.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_generic_libqevdevkeyboardplugin.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_generic_libqevdevmouseplugin.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_generic_libqevdevtabletplugin.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_generic_libqevdevtouchplugin.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqdds.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqgif.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqicns.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqico.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqjpeg.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqtga.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqtiff.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqwbmp.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_imageformats_libqwebp.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_platforms_android_libqtforandroid.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_platforms_libqminimal.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libplugins_platforms_libqoffscreen.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libQt5Core.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libQt5Gui.so \
+D:\gitKavi\address-book-master\build-address-book-Android_for_armeabi_v7a_GCC_4_9_Qt_5_7_0-Debug\android-build\libs\armeabi-v7a\libQt5Widgets.so \

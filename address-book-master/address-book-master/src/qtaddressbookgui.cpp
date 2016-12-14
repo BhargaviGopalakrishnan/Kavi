@@ -43,15 +43,24 @@ void QtAddressBookGUI::createWidgets()
 
     newContactButton = new QPushButton(" New Contact");
     newContactButton ->setIcon(QIcon("d:/icon1.jpg"));
+    newContactButton ->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 0, 255);"));
     editContactButton = new QPushButton(" Edit");
     editContactButton ->setIcon(QIcon("d:/icon2.jpg"));
+    editContactButton ->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 0, 25);"));
     deleteContactButton = new QPushButton("Delete");
     deleteContactButton ->setIcon(QIcon("d:/icon3.jpg"));
+    deleteContactButton ->setStyleSheet(QString::fromUtf8("background-color: rgb(25, 110, 232);"));
+    searchContactButton =new QPushButton(" Search");
+    searchContactField = new QLineEdit("enter the first name to search");
+    searchContactButton ->setIcon(QIcon("d:/icon3.jpg"));
+    searchContactButton ->setStyleSheet(QString::fromUtf8("background-color: rgb(120, 100, 200);"));
 
     QHBoxLayout *buttonLayout = new QHBoxLayout();
     buttonLayout->addWidget(newContactButton);
     buttonLayout->addWidget(editContactButton);
     buttonLayout->addWidget(deleteContactButton);
+    buttonLayout->addWidget(searchContactField);
+    buttonLayout->addWidget(searchContactButton);
 
     QVBoxLayout *rightSideLayout = new QVBoxLayout();
     rightSideLayout->addWidget(detailView);
@@ -75,6 +84,9 @@ void QtAddressBookGUI::createWidgets()
 
     connect(editContactButton, SIGNAL(clicked()),
             this, SLOT(editContact()));
+
+    connect(searchContactButton, SIGNAL(clicked()),
+            this, SLOT(searchContact()));
 
     //tell the sub-widgets to refresh their data from
     //
@@ -197,10 +209,12 @@ void QtAddressBookGUI::deleteContact()
             //So in this case, selection moves to the previous row.
             list->setCurrentRow(list->currentRow()-1,QItemSelectionModel::SelectCurrent);
         }
+
     }
-    
-    ErrorInfo deleteErrorStatus = appController.deleteContact(idToDelete);
-    if(deleteErrorStatus.code != ERR_OK)
+
+
+ErrorInfo deleteErrorStatus = appController.deleteContact(idToDelete);
+if(deleteErrorStatus.code != ERR_OK)
     {
         //display error dialog
         QtErrorDialog *errDialog = new QtErrorDialog(deleteErrorStatus.msg, this);
@@ -209,4 +223,19 @@ void QtAddressBookGUI::deleteContact()
         return;
     }
 }
+
+ void QtAddressBookGUI::searchContact()
+
+  {
+   std::string nameTosearch=searchContactField->text().toStdString();
+
+   Contact::ContactId idOfSearchedItem= list->searchList(nameTosearch);
+   detailView->clear();
+   detailView->displayContact(idOfSearchedItem);
+
+  }
+
+
+
+
 
